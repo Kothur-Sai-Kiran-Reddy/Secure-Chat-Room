@@ -26,7 +26,7 @@ This is a robust chat room system implemented using JavaScript, Node.js, MySQL, 
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/secure_chat_room.git
+    git clone https://github.com/Kothur-Sai-Kiran-Reddy/Secure-Chat-Room.git
     cd secure_chat_room
     ```
 
