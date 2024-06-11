@@ -1,0 +1,37 @@
+{
+  "name": "secure-chat-room",
+  "version": "1.0.0",
+  "description": "A secure chat room implementation using Node.js, Express, MySQL, and WebSockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kothur-Sai-Kiran-Reddy/Secure-Chat-Room.git"
+  },
+  "keywords": [
+    "chat",
+    "secure",
+    "nodejs",
+    "express",
+    "mysql",
+    "websockets"
+  ],
+  "author": "Sai Kiran Reddy Kothur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kothur-Sai-Kiran-Reddy/Secure-Chat-Room/issues"
+  },
+  "homepage": "https://github.com/Kothur-Sai-Kiran-Reddy/Secure-Chat-Room#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.10.0",
+    "ws": "^8.17.0"
+  }
+}
