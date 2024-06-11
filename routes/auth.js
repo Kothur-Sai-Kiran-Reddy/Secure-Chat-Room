@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const bcrypt = require('bcryptjs');
-const db = require('../config/database');
+const db = require('../secure_chat_room.sql');
 
 // User registration
 router.post('/register', async (req, res) => {
